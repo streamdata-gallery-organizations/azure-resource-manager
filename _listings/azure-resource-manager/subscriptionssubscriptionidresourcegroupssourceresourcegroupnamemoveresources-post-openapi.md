@@ -79,7 +79,7 @@ paths:
       summary: Resource Links List At Subscription
       description: Gets all the linked resources for the subscription.
       operationId: ResourceLinks_ListAtSubscription
-      x-api-path-slug: subscriptionssubscriptionidprovidersmicrosoftresourceslinks-get
+      x-api-path-slug: subscriptionssubscriptionidprovidersmicrosoft-resourceslinks-get
       parameters:
       - in: query
         name: $filter
@@ -97,7 +97,7 @@ paths:
       description: Gets a list of resource links at and below the specified source
         scope.
       operationId: ResourceLinks_ListAtSourceScope
-      x-api-path-slug: scopeprovidersmicrosoftresourceslinks-get
+      x-api-path-slug: scopeprovidersmicrosoft-resourceslinks-get
       parameters:
       - in: query
         name: $filter
@@ -121,7 +121,7 @@ paths:
         or Microsoft.Authorization/locks/* actions. Of the built-in roles, only Owner
         and User Access Administrator are granted those actions.
       operationId: ManagementLocks_CreateOrUpdateAtResourceGroupLevel
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftauthorizationlockslockname-put
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-authorizationlockslockname-put
       parameters:
       - in: path
         name: lockName
@@ -147,7 +147,7 @@ paths:
         or Microsoft.Authorization/locks/* actions. Of the built-in roles, only Owner
         and User Access Administrator are granted those actions.
       operationId: ManagementLocks_DeleteAtResourceGroupLevel
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftauthorizationlockslockname-delete
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-authorizationlockslockname-delete
       parameters:
       - in: path
         name: lockName
@@ -166,7 +166,7 @@ paths:
       summary: Management Locks Get At Resource Group Level
       description: Gets a management lock at the resource group level.
       operationId: ManagementLocks_GetAtResourceGroupLevel
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftauthorizationlockslockname-get
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-authorizationlockslockname-get
       parameters:
       - in: path
         name: lockName
@@ -186,7 +186,7 @@ paths:
       summary: Management Locks Create Or Update By Scope
       description: Create or update a management lock by scope.
       operationId: ManagementLocks_CreateOrUpdateByScope
-      x-api-path-slug: scopeprovidersmicrosoftauthorizationlockslockname-put
+      x-api-path-slug: scopeprovidersmicrosoft-authorizationlockslockname-put
       parameters:
       - in: path
         name: lockName
@@ -210,7 +210,7 @@ paths:
       summary: Management Locks Delete By Scope
       description: Delete a management lock by scope.
       operationId: ManagementLocks_DeleteByScope
-      x-api-path-slug: scopeprovidersmicrosoftauthorizationlockslockname-delete
+      x-api-path-slug: scopeprovidersmicrosoft-authorizationlockslockname-delete
       parameters:
       - in: path
         name: lockName
@@ -229,7 +229,7 @@ paths:
       summary: Management Locks Get By Scope
       description: Get a management lock by scope.
       operationId: ManagementLocks_GetByScope
-      x-api-path-slug: scopeprovidersmicrosoftauthorizationlockslockname-get
+      x-api-path-slug: scopeprovidersmicrosoft-authorizationlockslockname-get
       parameters:
       - in: path
         name: lockName
@@ -253,7 +253,7 @@ paths:
         or Microsoft.Authorization/locks/* actions. Of the built-in roles, only Owner
         and User Access Administrator are granted those actions.
       operationId: ManagementLocks_CreateOrUpdateAtResourceLevel
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersresourceprovidernamespaceparentresourcepathresourcetyperesourcenameprovidersmicrosoftauthorizationlockslockname-put
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersresourceprovidernamespaceparentresourcepathresourcetyperesourcenameprovidersmicrosoft-authorizationlockslockname-put
       parameters:
       - in: path
         name: lockName
@@ -291,7 +291,7 @@ paths:
         or Microsoft.Authorization/locks/* actions. Of the built-in roles, only Owner
         and User Access Administrator are granted those actions.
       operationId: ManagementLocks_DeleteAtResourceLevel
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersresourceprovidernamespaceparentresourcepathresourcetyperesourcenameprovidersmicrosoftauthorizationlockslockname-delete
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersresourceprovidernamespaceparentresourcepathresourcetyperesourcenameprovidersmicrosoft-authorizationlockslockname-delete
       parameters:
       - in: path
         name: lockName
@@ -324,7 +324,7 @@ paths:
       summary: Management Locks Get At Resource Level
       description: Get the management lock of a resource or any level below resource.
       operationId: ManagementLocks_GetAtResourceLevel
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersresourceprovidernamespaceparentresourcepathresourcetyperesourcenameprovidersmicrosoftauthorizationlockslockname-get
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersresourceprovidernamespaceparentresourcepathresourcetyperesourcenameprovidersmicrosoft-authorizationlockslockname-get
       parameters:
       - in: path
         name: lockName
@@ -359,7 +359,7 @@ paths:
         or Microsoft.Authorization/locks/* actions. Of the built-in roles, only Owner
         and User Access Administrator are granted those actions.
       operationId: ManagementLocks_CreateOrUpdateAtSubscriptionLevel
-      x-api-path-slug: subscriptionssubscriptionidprovidersmicrosoftauthorizationlockslockname-put
+      x-api-path-slug: subscriptionssubscriptionidprovidersmicrosoft-authorizationlockslockname-put
       parameters:
       - in: path
         name: lockName
@@ -382,7 +382,7 @@ paths:
         or Microsoft.Authorization/locks/* actions. Of the built-in roles, only Owner
         and User Access Administrator are granted those actions.
       operationId: ManagementLocks_DeleteAtSubscriptionLevel
-      x-api-path-slug: subscriptionssubscriptionidprovidersmicrosoftauthorizationlockslockname-delete
+      x-api-path-slug: subscriptionssubscriptionidprovidersmicrosoft-authorizationlockslockname-delete
       parameters:
       - in: path
         name: lockName
@@ -398,7 +398,7 @@ paths:
       summary: Management Locks Get At Subscription Level
       description: Gets a management lock at the subscription level.
       operationId: ManagementLocks_GetAtSubscriptionLevel
-      x-api-path-slug: subscriptionssubscriptionidprovidersmicrosoftauthorizationlockslockname-get
+      x-api-path-slug: subscriptionssubscriptionidprovidersmicrosoft-authorizationlockslockname-get
       parameters:
       - in: path
         name: lockName
@@ -415,7 +415,7 @@ paths:
       summary: Management Locks List At Resource Group Level
       description: Gets all the management locks for a resource group.
       operationId: ManagementLocks_ListAtResourceGroupLevel
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftauthorizationlocks-get
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-authorizationlocks-get
       parameters:
       - in: query
         name: $filter
@@ -436,7 +436,7 @@ paths:
       description: Gets all the management locks for a resource or any level below
         resource.
       operationId: ManagementLocks_ListAtResourceLevel
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersresourceprovidernamespaceparentresourcepathresourcetyperesourcenameprovidersmicrosoftauthorizationlocks-get
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersresourceprovidernamespaceparentresourcepathresourcetyperesourcenameprovidersmicrosoft-authorizationlocks-get
       parameters:
       - in: query
         name: $filter
@@ -468,7 +468,7 @@ paths:
       summary: Management Locks List At Subscription Level
       description: Gets all the management locks for a subscription.
       operationId: ManagementLocks_ListAtSubscriptionLevel
-      x-api-path-slug: subscriptionssubscriptionidprovidersmicrosoftauthorizationlocks-get
+      x-api-path-slug: subscriptionssubscriptionidprovidersmicrosoft-authorizationlocks-get
       parameters:
       - in: query
         name: $filter
@@ -485,7 +485,7 @@ paths:
       summary: Policy Assignments Delete
       description: Deletes a policy assignment.
       operationId: PolicyAssignments_Delete
-      x-api-path-slug: scopeprovidersmicrosoftauthorizationpolicyassignmentspolicyassignmentname-delete
+      x-api-path-slug: scopeprovidersmicrosoft-authorizationpolicyassignmentspolicyassignmentname-delete
       parameters:
       - in: query
         name: No Name
@@ -506,7 +506,7 @@ paths:
         when you apply a policy to a resource group that policy is assigned to all
         resources in the group.
       operationId: PolicyAssignments_Create
-      x-api-path-slug: scopeprovidersmicrosoftauthorizationpolicyassignmentspolicyassignmentname-put
+      x-api-path-slug: scopeprovidersmicrosoft-authorizationpolicyassignmentspolicyassignmentname-put
       parameters:
       - in: query
         name: No Name
@@ -530,7 +530,7 @@ paths:
       summary: Policy Assignments Get
       description: Gets a policy assignment.
       operationId: PolicyAssignments_Get
-      x-api-path-slug: scopeprovidersmicrosoftauthorizationpolicyassignmentspolicyassignmentname-get
+      x-api-path-slug: scopeprovidersmicrosoft-authorizationpolicyassignmentspolicyassignmentname-get
       parameters:
       - in: query
         name: No Name
@@ -550,7 +550,7 @@ paths:
       summary: Policy Assignments List For Resource Group
       description: Gets policy assignments for the resource group.
       operationId: PolicyAssignments_ListForResourceGroup
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftauthorizationpolicyassignments-get
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-authorizationpolicyassignments-get
       parameters:
       - in: query
         name: $filter
@@ -570,7 +570,7 @@ paths:
       summary: Policy Assignments List For Resource
       description: Gets policy assignments for a resource.
       operationId: PolicyAssignments_ListForResource
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersresourceprovidernamespaceparentresourcepathresourcetyperesourcenameprovidersmicrosoftauthorizationpolicyassignments-get
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersresourceprovidernamespaceparentresourcepathresourcetyperesourcenameprovidersmicrosoft-authorizationpolicyassignments-get
       parameters:
       - in: query
         name: $filter
@@ -602,7 +602,7 @@ paths:
       summary: Policy Assignments List
       description: Gets all the policy assignments for a subscription.
       operationId: PolicyAssignments_List
-      x-api-path-slug: subscriptionssubscriptionidprovidersmicrosoftauthorizationpolicyassignments-get
+      x-api-path-slug: subscriptionssubscriptionidprovidersmicrosoft-authorizationpolicyassignments-get
       parameters:
       - in: query
         name: $filter
@@ -684,7 +684,7 @@ paths:
       summary: Policy Definitions Create Or Update
       description: Creates or updates a policy definition.
       operationId: PolicyDefinitions_CreateOrUpdate
-      x-api-path-slug: subscriptionssubscriptionidprovidersmicrosoftauthorizationpolicydefinitionspolicydefinitionname-put
+      x-api-path-slug: subscriptionssubscriptionidprovidersmicrosoft-authorizationpolicydefinitionspolicydefinitionname-put
       parameters:
       - in: query
         name: No Name
@@ -705,7 +705,7 @@ paths:
       summary: Policy Definitions Delete
       description: Deletes a policy definition.
       operationId: PolicyDefinitions_Delete
-      x-api-path-slug: subscriptionssubscriptionidprovidersmicrosoftauthorizationpolicydefinitionspolicydefinitionname-delete
+      x-api-path-slug: subscriptionssubscriptionidprovidersmicrosoft-authorizationpolicydefinitionspolicydefinitionname-delete
       parameters:
       - in: query
         name: No Name
@@ -721,7 +721,7 @@ paths:
       summary: Policy Definitions Get
       description: Gets the policy definition.
       operationId: PolicyDefinitions_Get
-      x-api-path-slug: subscriptionssubscriptionidprovidersmicrosoftauthorizationpolicydefinitionspolicydefinitionname-get
+      x-api-path-slug: subscriptionssubscriptionidprovidersmicrosoft-authorizationpolicydefinitionspolicydefinitionname-get
       parameters:
       - in: query
         name: No Name
@@ -738,7 +738,7 @@ paths:
       summary: Policy Definitions List
       description: Gets all the policy definitions for a subscription.
       operationId: PolicyDefinitions_List
-      x-api-path-slug: subscriptionssubscriptionidprovidersmicrosoftauthorizationpolicydefinitions-get
+      x-api-path-slug: subscriptionssubscriptionidprovidersmicrosoft-authorizationpolicydefinitions-get
       parameters:
       - in: query
         name: $filter
@@ -764,7 +764,7 @@ paths:
         of 204 on success. If the asynchronous request failed, the URI in the Location
         header returns an error-level status code.
       operationId: Deployments_Delete
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftresourcesdeploymentsdeploymentname-delete
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-resourcesdeploymentsdeploymentname-delete
       parameters:
       - in: path
         name: deploymentName
@@ -783,7 +783,7 @@ paths:
       summary: Deployments Check Existence
       description: Checks whether the deployment exists.
       operationId: Deployments_CheckExistence
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftresourcesdeploymentsdeploymentname-head
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-resourcesdeploymentsdeploymentname-head
       parameters:
       - in: path
         name: deploymentName
@@ -803,7 +803,7 @@ paths:
       description: You can provide the template and parameters directly in the request
         or link to JSON files.
       operationId: Deployments_CreateOrUpdate
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftresourcesdeploymentsdeploymentname-put
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-resourcesdeploymentsdeploymentname-put
       parameters:
       - in: path
         name: deploymentName
@@ -827,7 +827,7 @@ paths:
       summary: Deployments Get
       description: Gets a deployment.
       operationId: Deployments_Get
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftresourcesdeploymentsdeploymentname-get
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-resourcesdeploymentsdeploymentname-get
       parameters:
       - in: path
         name: deploymentName
@@ -850,7 +850,7 @@ paths:
         to Canceled. Canceling a template deployment stops the currently running template
         deployment and leaves the resource group partially deployed.
       operationId: Deployments_Cancel
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftresourcesdeploymentsdeploymentnamecancel-post
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-resourcesdeploymentsdeploymentnamecancel-post
       parameters:
       - in: path
         name: deploymentName
@@ -871,7 +871,7 @@ paths:
       description: Validates whether the specified template is syntactically correct
         and will be accepted by Azure Resource Manager..
       operationId: Deployments_Validate
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftresourcesdeploymentsdeploymentnamevalidate-post
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-resourcesdeploymentsdeploymentnamevalidate-post
       parameters:
       - in: path
         name: deploymentName
@@ -897,7 +897,7 @@ paths:
       summary: Deployments Export Template
       description: Exports the template used for specified deployment.
       operationId: Deployments_ExportTemplate
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftresourcesdeploymentsdeploymentnameexporttemplate-post
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-resourcesdeploymentsdeploymentnameexporttemplate-post
       parameters:
       - in: path
         name: deploymentName
@@ -917,7 +917,7 @@ paths:
       summary: Deployments List
       description: Get all the deployments for a resource group.
       operationId: Deployments_List
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftresourcesdeployments-get
+      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-resourcesdeployments-get
       parameters:
       - in: query
         name: $filter

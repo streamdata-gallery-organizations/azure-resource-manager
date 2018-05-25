@@ -1,10 +1,11 @@
 ---
 name: Streadata.io API Gallery - Azure Resource Manager
-description: This is a repository of  APIs, self-contained as a Github repository,
-  with HTML and YAML representations of the APIs and their surrounding operations.
+description: This is a repository of azure resource manager APIs, self-contained as
+  a Github repository, with HTML and YAML representations of the APIs and their surrounding
+  operations.
 image: http://template.streamdata.gallery/assets/azure-resource-manager.png
 created: "2018-02-24"
-modified: "2018-05-21"
+modified: "2018-05-24"
 url: http://azure-resource-manager.streamdata.gallery/apis.json
 specificationVersion: "0.14"
 apis: []

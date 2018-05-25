@@ -9,8 +9,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "8"
 x-alexaRank: ""
 tags: Azure Resource Manager
-created: "2018-05-21"
-modified: "2018-05-21"
+created: "2018-05-24"
+modified: "2018-05-24"
 url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-resource-manager/master/_listings/azure-resource-manager/apis.md
 specificationVersion: "0.14"
 apis:
@@ -57,9 +57,9 @@ apis:
   tags: Resource Links At Subscription
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-resource-manager/master/_listings/azure-resource-manager/subscriptionssubscriptionidprovidersmicrosoftresourceslinks-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-resource-manager/master/_listings/azure-resource-manager/subscriptionssubscriptionidprovidersmicrosoft-resourceslinks-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-resource-manager/master/_listings/azure-resource-manager/subscriptionssubscriptionidprovidersmicrosoftresourceslinks-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-resource-manager/master/_listings/azure-resource-manager/subscriptionssubscriptionidprovidersmicrosoft-resourceslinks-get-openapi.md
 - name: Azure Resource Manager API Resource Links List At Source Scope
   x-api-slug: azure-resource-manager-api
   description: Gets a list of resource links at and below the specified source scope.
@@ -69,9 +69,9 @@ apis:
   tags: Resource Links
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-resource-manager/master/_listings/azure-resource-manager/scopeprovidersmicrosoftresourceslinks-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-resource-manager/master/_listings/azure-resource-manager/scopeprovidersmicrosoft-resourceslinks-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-resource-manager/master/_listings/azure-resource-manager/scopeprovidersmicrosoftresourceslinks-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-resource-manager/master/_listings/azure-resource-manager/scopeprovidersmicrosoft-resourceslinks-get-openapi.md
 - name: Azure Resource Manager API Creates or updates a management lock at the resource
     group level.
   x-api-slug: azure-resource-manager-api
@@ -85,7 +85,7 @@ apis:
   tags: Ss A Management Lock At Resource Group Level.
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-resource-manager/master/_listings/azure-resource-manager/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftauthorizationlockslockname-put-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-resource-manager/master/_listings/azure-resource-manager/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-authorizationlockslockname-put-openapi.md
 - name: Azure Resource Manager API Deletes a management lock at the resource group
     level.
   x-api-slug: azure-resource-manager-api
@@ -98,9 +98,9 @@ apis:
   tags: S A Management Lock At Resource Group Level.
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-resource-manager/master/_listings/azure-resource-manager/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftauthorizationlockslockname-delete-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-resource-manager/master/_listings/azure-resource-manager/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-authorizationlockslockname-delete-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-resource-manager/master/_listings/azure-resource-manager/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftauthorizationlockslockname-delete-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-resource-manager/master/_listings/azure-resource-manager/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-authorizationlockslockname-delete-openapi.md
 - name: Azure Resource Manager API Management Locks Get At Resource Group Level
   x-api-slug: azure-resource-manager-api
   description: Gets a management lock at the resource group level.
@@ -110,9 +110,9 @@ apis:
   tags: Management Locks At Resource Group Level
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-resource-manager/master/_listings/azure-resource-manager/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftauthorizationlockslockname-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-resource-manager/master/_listings/azure-resource-manager/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-authorizationlockslockname-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-resource-manager/master/_listings/azure-resource-manager/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftauthorizationlockslockname-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-resource-manager/master/_listings/azure-resource-manager/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-authorizationlockslockname-get-openapi.md
 - name: Azure Resource Manager API Management Locks Create Or Update By Scope
   x-api-slug: azure-resource-manager-api
   description: Create or update a management lock by scope.
@@ -122,7 +122,7 @@ apis:
   tags: Management Locks Scope
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-resource-manager/master/_listings/azure-resource-manager/scopeprovidersmicrosoftauthorizationlockslockname-put-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-resource-manager/master/_listings/azure-resource-manager/scopeprovidersmicrosoft-authorizationlockslockname-put-openapi.md
 - name: Azure Resource Manager API Management Locks Delete By Scope
   x-api-slug: azure-resource-manager-api
   description: Delete a management lock by scope.
@@ -132,9 +132,9 @@ apis:
   tags: Management Locks Scope
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-resource-manager/master/_listings/azure-resource-manager/scopeprovidersmicrosoftauthorizationlockslockname-delete-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-resource-manager/master/_listings/azure-resource-manager/scopeprovidersmicrosoft-authorizationlockslockname-delete-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-resource-manager/master/_listings/azure-resource-manager/scopeprovidersmicrosoftauthorizationlockslockname-delete-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-resource-manager/master/_listings/azure-resource-manager/scopeprovidersmicrosoft-authorizationlockslockname-delete-openapi.md
 - name: Azure Resource Manager API Management Locks Get By Scope
   x-api-slug: azure-resource-manager-api
   description: Get a management lock by scope.
@@ -144,9 +144,9 @@ apis:
   tags: Management Locks Scope
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-resource-manager/master/_listings/azure-resource-manager/scopeprovidersmicrosoftauthorizationlockslockname-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-resource-manager/master/_listings/azure-resource-manager/scopeprovidersmicrosoft-authorizationlockslockname-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-resource-manager/master/_listings/azure-resource-manager/scopeprovidersmicrosoftauthorizationlockslockname-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-resource-manager/master/_listings/azure-resource-manager/scopeprovidersmicrosoft-authorizationlockslockname-get-openapi.md
 - name: Azure Resource Manager API Creates or updates a management lock at the resource
     level or any level below the resource.
   x-api-slug: azure-resource-manager-api
@@ -160,7 +160,7 @@ apis:
   tags: Management Locks
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-resource-manager/master/_listings/azure-resource-manager/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersresourceprovidernamespaceparentresourcepathresourcetyperesourcenameprovidersmicrosoftauthorizationlockslockname-put-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-resource-manager/master/_listings/azure-resource-manager/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersresourceprovidernamespaceparentresourcepathresourcetyperesourcenameprovidersmicrosoft-authorizationlockslockname-put-openapi.md
 - name: Azure Resource Manager API Deletes the management lock of a resource or any
     level below the resource.
   x-api-slug: azure-resource-manager-api
@@ -173,9 +173,9 @@ apis:
   tags: Management Locks
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-resource-manager/master/_listings/azure-resource-manager/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersresourceprovidernamespaceparentresourcepathresourcetyperesourcenameprovidersmicrosoftauthorizationlockslockname-delete-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-resource-manager/master/_listings/azure-resource-manager/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersresourceprovidernamespaceparentresourcepathresourcetyperesourcenameprovidersmicrosoft-authorizationlockslockname-delete-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-resource-manager/master/_listings/azure-resource-manager/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersresourceprovidernamespaceparentresourcepathresourcetyperesourcenameprovidersmicrosoftauthorizationlockslockname-delete-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-resource-manager/master/_listings/azure-resource-manager/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersresourceprovidernamespaceparentresourcepathresourcetyperesourcenameprovidersmicrosoft-authorizationlockslockname-delete-openapi.md
 - name: Azure Resource Manager API Management Locks Get At Resource Level
   x-api-slug: azure-resource-manager-api
   description: Get the management lock of a resource or any level below resource.
@@ -185,9 +185,9 @@ apis:
   tags: Management Locks
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-resource-manager/master/_listings/azure-resource-manager/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersresourceprovidernamespaceparentresourcepathresourcetyperesourcenameprovidersmicrosoftauthorizationlockslockname-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-resource-manager/master/_listings/azure-resource-manager/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersresourceprovidernamespaceparentresourcepathresourcetyperesourcenameprovidersmicrosoft-authorizationlockslockname-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-resource-manager/master/_listings/azure-resource-manager/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersresourceprovidernamespaceparentresourcepathresourcetyperesourcenameprovidersmicrosoftauthorizationlockslockname-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-resource-manager/master/_listings/azure-resource-manager/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersresourceprovidernamespaceparentresourcepathresourcetyperesourcenameprovidersmicrosoft-authorizationlockslockname-get-openapi.md
 - name: Azure Resource Manager API Creates or updates a management lock at the subscription
     level.
   x-api-slug: azure-resource-manager-api
@@ -201,7 +201,7 @@ apis:
   tags: Ss A Management Lock At Subscription Level.
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-resource-manager/master/_listings/azure-resource-manager/subscriptionssubscriptionidprovidersmicrosoftauthorizationlockslockname-put-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-resource-manager/master/_listings/azure-resource-manager/subscriptionssubscriptionidprovidersmicrosoft-authorizationlockslockname-put-openapi.md
 - name: Azure Resource Manager API Deletes the management lock at the subscription
     level.
   x-api-slug: azure-resource-manager-api
@@ -214,9 +214,9 @@ apis:
   tags: S Management Lock At Subscription Level.
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-resource-manager/master/_listings/azure-resource-manager/subscriptionssubscriptionidprovidersmicrosoftauthorizationlockslockname-delete-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-resource-manager/master/_listings/azure-resource-manager/subscriptionssubscriptionidprovidersmicrosoft-authorizationlockslockname-delete-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-resource-manager/master/_listings/azure-resource-manager/subscriptionssubscriptionidprovidersmicrosoftauthorizationlockslockname-delete-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-resource-manager/master/_listings/azure-resource-manager/subscriptionssubscriptionidprovidersmicrosoft-authorizationlockslockname-delete-openapi.md
 - name: Azure Resource Manager API Management Locks Get At Subscription Level
   x-api-slug: azure-resource-manager-api
   description: Gets a management lock at the subscription level.
@@ -226,9 +226,9 @@ apis:
   tags: Management Locks At Subscription Level
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-resource-manager/master/_listings/azure-resource-manager/subscriptionssubscriptionidprovidersmicrosoftauthorizationlockslockname-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-resource-manager/master/_listings/azure-resource-manager/subscriptionssubscriptionidprovidersmicrosoft-authorizationlockslockname-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-resource-manager/master/_listings/azure-resource-manager/subscriptionssubscriptionidprovidersmicrosoftauthorizationlockslockname-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-resource-manager/master/_listings/azure-resource-manager/subscriptionssubscriptionidprovidersmicrosoft-authorizationlockslockname-get-openapi.md
 - name: Azure Resource Manager API Management Locks List At Resource Group Level
   x-api-slug: azure-resource-manager-api
   description: Gets all the management locks for a resource group.
@@ -238,9 +238,9 @@ apis:
   tags: Management Locks At Resource Group Level
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-resource-manager/master/_listings/azure-resource-manager/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftauthorizationlocks-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-resource-manager/master/_listings/azure-resource-manager/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-authorizationlocks-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-resource-manager/master/_listings/azure-resource-manager/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftauthorizationlocks-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-resource-manager/master/_listings/azure-resource-manager/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-authorizationlocks-get-openapi.md
 - name: Azure Resource Manager API Management Locks List At Resource Level
   x-api-slug: azure-resource-manager-api
   description: Gets all the management locks for a resource or any level below resource.
@@ -250,9 +250,9 @@ apis:
   tags: Management Locks
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-resource-manager/master/_listings/azure-resource-manager/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersresourceprovidernamespaceparentresourcepathresourcetyperesourcenameprovidersmicrosoftauthorizationlocks-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-resource-manager/master/_listings/azure-resource-manager/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersresourceprovidernamespaceparentresourcepathresourcetyperesourcenameprovidersmicrosoft-authorizationlocks-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-resource-manager/master/_listings/azure-resource-manager/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersresourceprovidernamespaceparentresourcepathresourcetyperesourcenameprovidersmicrosoftauthorizationlocks-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-resource-manager/master/_listings/azure-resource-manager/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersresourceprovidernamespaceparentresourcepathresourcetyperesourcenameprovidersmicrosoft-authorizationlocks-get-openapi.md
 - name: Azure Resource Manager API Management Locks List At Subscription Level
   x-api-slug: azure-resource-manager-api
   description: Gets all the management locks for a subscription.
@@ -262,9 +262,9 @@ apis:
   tags: Management Locks At Subscription Level
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-resource-manager/master/_listings/azure-resource-manager/subscriptionssubscriptionidprovidersmicrosoftauthorizationlocks-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-resource-manager/master/_listings/azure-resource-manager/subscriptionssubscriptionidprovidersmicrosoft-authorizationlocks-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-resource-manager/master/_listings/azure-resource-manager/subscriptionssubscriptionidprovidersmicrosoftauthorizationlocks-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-resource-manager/master/_listings/azure-resource-manager/subscriptionssubscriptionidprovidersmicrosoft-authorizationlocks-get-openapi.md
 - name: Azure Resource Manager API Policy Assignments Delete
   x-api-slug: azure-resource-manager-api
   description: Deletes a policy assignment.
@@ -274,9 +274,9 @@ apis:
   tags: Policy Assignments
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-resource-manager/master/_listings/azure-resource-manager/scopeprovidersmicrosoftauthorizationpolicyassignmentspolicyassignmentname-delete-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-resource-manager/master/_listings/azure-resource-manager/scopeprovidersmicrosoft-authorizationpolicyassignmentspolicyassignmentname-delete-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-resource-manager/master/_listings/azure-resource-manager/scopeprovidersmicrosoftauthorizationpolicyassignmentspolicyassignmentname-delete-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-resource-manager/master/_listings/azure-resource-manager/scopeprovidersmicrosoft-authorizationpolicyassignmentspolicyassignmentname-delete-openapi.md
 - name: Azure Resource Manager API Creates a policy assignment.
   x-api-slug: azure-resource-manager-api
   description: Policy assignments are inherited by child resources. For example, when
@@ -288,7 +288,7 @@ apis:
   tags: Policy Assignments
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-resource-manager/master/_listings/azure-resource-manager/scopeprovidersmicrosoftauthorizationpolicyassignmentspolicyassignmentname-put-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-resource-manager/master/_listings/azure-resource-manager/scopeprovidersmicrosoft-authorizationpolicyassignmentspolicyassignmentname-put-openapi.md
 - name: Azure Resource Manager API Policy Assignments Get
   x-api-slug: azure-resource-manager-api
   description: Gets a policy assignment.
@@ -298,9 +298,9 @@ apis:
   tags: Policy Assignments
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-resource-manager/master/_listings/azure-resource-manager/scopeprovidersmicrosoftauthorizationpolicyassignmentspolicyassignmentname-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-resource-manager/master/_listings/azure-resource-manager/scopeprovidersmicrosoft-authorizationpolicyassignmentspolicyassignmentname-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-resource-manager/master/_listings/azure-resource-manager/scopeprovidersmicrosoftauthorizationpolicyassignmentspolicyassignmentname-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-resource-manager/master/_listings/azure-resource-manager/scopeprovidersmicrosoft-authorizationpolicyassignmentspolicyassignmentname-get-openapi.md
 - name: Azure Resource Manager API Policy Assignments List For Resource Group
   x-api-slug: azure-resource-manager-api
   description: Gets policy assignments for the resource group.
@@ -310,9 +310,9 @@ apis:
   tags: Policy Assignments For Resource Group
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-resource-manager/master/_listings/azure-resource-manager/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftauthorizationpolicyassignments-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-resource-manager/master/_listings/azure-resource-manager/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-authorizationpolicyassignments-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-resource-manager/master/_listings/azure-resource-manager/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftauthorizationpolicyassignments-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-resource-manager/master/_listings/azure-resource-manager/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-authorizationpolicyassignments-get-openapi.md
 - name: Azure Resource Manager API Policy Assignments List For Resource
   x-api-slug: azure-resource-manager-api
   description: Gets policy assignments for a resource.
@@ -322,9 +322,9 @@ apis:
   tags: Policy Assignments
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-resource-manager/master/_listings/azure-resource-manager/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersresourceprovidernamespaceparentresourcepathresourcetyperesourcenameprovidersmicrosoftauthorizationpolicyassignments-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-resource-manager/master/_listings/azure-resource-manager/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersresourceprovidernamespaceparentresourcepathresourcetyperesourcenameprovidersmicrosoft-authorizationpolicyassignments-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-resource-manager/master/_listings/azure-resource-manager/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersresourceprovidernamespaceparentresourcepathresourcetyperesourcenameprovidersmicrosoftauthorizationpolicyassignments-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-resource-manager/master/_listings/azure-resource-manager/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersresourceprovidernamespaceparentresourcepathresourcetyperesourcenameprovidersmicrosoft-authorizationpolicyassignments-get-openapi.md
 - name: Azure Resource Manager API Policy Assignments List
   x-api-slug: azure-resource-manager-api
   description: Gets all the policy assignments for a subscription.
@@ -334,9 +334,9 @@ apis:
   tags: Policy Assignments
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-resource-manager/master/_listings/azure-resource-manager/subscriptionssubscriptionidprovidersmicrosoftauthorizationpolicyassignments-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-resource-manager/master/_listings/azure-resource-manager/subscriptionssubscriptionidprovidersmicrosoft-authorizationpolicyassignments-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-resource-manager/master/_listings/azure-resource-manager/subscriptionssubscriptionidprovidersmicrosoftauthorizationpolicyassignments-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-resource-manager/master/_listings/azure-resource-manager/subscriptionssubscriptionidprovidersmicrosoft-authorizationpolicyassignments-get-openapi.md
 - name: Azure Resource Manager API Deletes a policy assignment by ID.
   x-api-slug: azure-resource-manager-api
   description: When providing a scope for the assigment, use '/subscriptions/{subscription-id}/'
@@ -391,7 +391,7 @@ apis:
   tags: Policy Definitions
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-resource-manager/master/_listings/azure-resource-manager/subscriptionssubscriptionidprovidersmicrosoftauthorizationpolicydefinitionspolicydefinitionname-put-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-resource-manager/master/_listings/azure-resource-manager/subscriptionssubscriptionidprovidersmicrosoft-authorizationpolicydefinitionspolicydefinitionname-put-openapi.md
 - name: Azure Resource Manager API Policy Definitions Delete
   x-api-slug: azure-resource-manager-api
   description: Deletes a policy definition.
@@ -401,9 +401,9 @@ apis:
   tags: Policy Definitions
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-resource-manager/master/_listings/azure-resource-manager/subscriptionssubscriptionidprovidersmicrosoftauthorizationpolicydefinitionspolicydefinitionname-delete-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-resource-manager/master/_listings/azure-resource-manager/subscriptionssubscriptionidprovidersmicrosoft-authorizationpolicydefinitionspolicydefinitionname-delete-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-resource-manager/master/_listings/azure-resource-manager/subscriptionssubscriptionidprovidersmicrosoftauthorizationpolicydefinitionspolicydefinitionname-delete-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-resource-manager/master/_listings/azure-resource-manager/subscriptionssubscriptionidprovidersmicrosoft-authorizationpolicydefinitionspolicydefinitionname-delete-openapi.md
 - name: Azure Resource Manager API Policy Definitions Get
   x-api-slug: azure-resource-manager-api
   description: Gets the policy definition.
@@ -413,9 +413,9 @@ apis:
   tags: Policy Definitions
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-resource-manager/master/_listings/azure-resource-manager/subscriptionssubscriptionidprovidersmicrosoftauthorizationpolicydefinitionspolicydefinitionname-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-resource-manager/master/_listings/azure-resource-manager/subscriptionssubscriptionidprovidersmicrosoft-authorizationpolicydefinitionspolicydefinitionname-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-resource-manager/master/_listings/azure-resource-manager/subscriptionssubscriptionidprovidersmicrosoftauthorizationpolicydefinitionspolicydefinitionname-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-resource-manager/master/_listings/azure-resource-manager/subscriptionssubscriptionidprovidersmicrosoft-authorizationpolicydefinitionspolicydefinitionname-get-openapi.md
 - name: Azure Resource Manager API Policy Definitions List
   x-api-slug: azure-resource-manager-api
   description: Gets all the policy definitions for a subscription.
@@ -425,9 +425,9 @@ apis:
   tags: Policy Definitions
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-resource-manager/master/_listings/azure-resource-manager/subscriptionssubscriptionidprovidersmicrosoftauthorizationpolicydefinitions-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-resource-manager/master/_listings/azure-resource-manager/subscriptionssubscriptionidprovidersmicrosoft-authorizationpolicydefinitions-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-resource-manager/master/_listings/azure-resource-manager/subscriptionssubscriptionidprovidersmicrosoftauthorizationpolicydefinitions-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-resource-manager/master/_listings/azure-resource-manager/subscriptionssubscriptionidprovidersmicrosoft-authorizationpolicydefinitions-get-openapi.md
 - name: Azure Resource Manager API Deletes a deployment from the deployment history.
   x-api-slug: azure-resource-manager-api
   description: A template deployment that is currently running cannot be deleted.
@@ -445,9 +445,9 @@ apis:
   tags: Deployments
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-resource-manager/master/_listings/azure-resource-manager/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftresourcesdeploymentsdeploymentname-delete-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-resource-manager/master/_listings/azure-resource-manager/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-resourcesdeploymentsdeploymentname-delete-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-resource-manager/master/_listings/azure-resource-manager/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftresourcesdeploymentsdeploymentname-delete-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-resource-manager/master/_listings/azure-resource-manager/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-resourcesdeploymentsdeploymentname-delete-openapi.md
 - name: Azure Resource Manager API Deployments Check Existence
   x-api-slug: azure-resource-manager-api
   description: Checks whether the deployment exists.
@@ -457,9 +457,9 @@ apis:
   tags: Deployments
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-resource-manager/master/_listings/azure-resource-manager/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftresourcesdeploymentsdeploymentname-head-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-resource-manager/master/_listings/azure-resource-manager/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-resourcesdeploymentsdeploymentname-head-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-resource-manager/master/_listings/azure-resource-manager/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftresourcesdeploymentsdeploymentname-head-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-resource-manager/master/_listings/azure-resource-manager/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-resourcesdeploymentsdeploymentname-head-openapi.md
 - name: Azure Resource Manager API Deploys resources to a resource group.
   x-api-slug: azure-resource-manager-api
   description: You can provide the template and parameters directly in the request
@@ -470,7 +470,7 @@ apis:
   tags: Deployments
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-resource-manager/master/_listings/azure-resource-manager/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftresourcesdeploymentsdeploymentname-put-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-resource-manager/master/_listings/azure-resource-manager/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-resourcesdeploymentsdeploymentname-put-openapi.md
 - name: Azure Resource Manager API Deployments Get
   x-api-slug: azure-resource-manager-api
   description: Gets a deployment.
@@ -480,9 +480,9 @@ apis:
   tags: Deployments
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-resource-manager/master/_listings/azure-resource-manager/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftresourcesdeploymentsdeploymentname-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-resource-manager/master/_listings/azure-resource-manager/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-resourcesdeploymentsdeploymentname-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-resource-manager/master/_listings/azure-resource-manager/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftresourcesdeploymentsdeploymentname-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-resource-manager/master/_listings/azure-resource-manager/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-resourcesdeploymentsdeploymentname-get-openapi.md
 - name: Azure Resource Manager API Cancels a currently running template deployment.
   x-api-slug: azure-resource-manager-api
   description: You can cancel a deployment only if the provisioningState is Accepted
@@ -495,9 +495,9 @@ apis:
   tags: Deployments
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-resource-manager/master/_listings/azure-resource-manager/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftresourcesdeploymentsdeploymentnamecancel-post-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-resource-manager/master/_listings/azure-resource-manager/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-resourcesdeploymentsdeploymentnamecancel-post-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-resource-manager/master/_listings/azure-resource-manager/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftresourcesdeploymentsdeploymentnamecancel-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-resource-manager/master/_listings/azure-resource-manager/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-resourcesdeploymentsdeploymentnamecancel-post-openapi.md
 - name: Azure Resource Manager API Deployments Validate
   x-api-slug: azure-resource-manager-api
   description: Validates whether the specified template is syntactically correct and
@@ -508,7 +508,7 @@ apis:
   tags: Deployments
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-resource-manager/master/_listings/azure-resource-manager/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftresourcesdeploymentsdeploymentnamevalidate-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-resource-manager/master/_listings/azure-resource-manager/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-resourcesdeploymentsdeploymentnamevalidate-post-openapi.md
 - name: Azure Resource Manager API Deployments Export Template
   x-api-slug: azure-resource-manager-api
   description: Exports the template used for specified deployment.
@@ -518,9 +518,9 @@ apis:
   tags: Deployments
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-resource-manager/master/_listings/azure-resource-manager/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftresourcesdeploymentsdeploymentnameexporttemplate-post-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-resource-manager/master/_listings/azure-resource-manager/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-resourcesdeploymentsdeploymentnameexporttemplate-post-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-resource-manager/master/_listings/azure-resource-manager/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftresourcesdeploymentsdeploymentnameexporttemplate-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-resource-manager/master/_listings/azure-resource-manager/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-resourcesdeploymentsdeploymentnameexporttemplate-post-openapi.md
 - name: Azure Resource Manager API Deployments List
   x-api-slug: azure-resource-manager-api
   description: Get all the deployments for a resource group.
@@ -530,9 +530,9 @@ apis:
   tags: Deployments
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-resource-manager/master/_listings/azure-resource-manager/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftresourcesdeployments-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-resource-manager/master/_listings/azure-resource-manager/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-resourcesdeployments-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-resource-manager/master/_listings/azure-resource-manager/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftresourcesdeployments-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-resource-manager/master/_listings/azure-resource-manager/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-resourcesdeployments-get-openapi.md
 - name: Azure Resource Manager API Providers Unregister
   x-api-slug: azure-resource-manager-api
   description: Unregisters a subscription from a resource provider.
