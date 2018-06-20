@@ -7,10 +7,10 @@ description: Azure Resource Manager enables you to deploy and manage the infrast
   managing resources with Resource Manager, see Azure Resource Manager overview.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-resource-manager.png
 x-kinRank: "8"
-x-alexaRank: ""
+x-alexaRank: "0"
 tags: Azure Resource Manager
-created: "2018-05-24"
-modified: "2018-05-24"
+created: "2018-06-20"
+modified: "2018-06-20"
 url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-resource-manager/master/_listings/azure-resource-manager/apis.md
 specificationVersion: "0.14"
 apis:
